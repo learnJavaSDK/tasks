@@ -3,7 +3,8 @@ package com.ira;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
-    public static void main (String[] args) {
+    public static void main (String[] args)
+    {
         int[][] matrix = createMatrix(8, 5, 10, 99);
         for (int [] rov : matrix) {
             for (int cell : rov) {
